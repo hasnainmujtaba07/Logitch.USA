@@ -254,11 +254,13 @@
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    /* transition: background-color 0.3s ease; */
+     transition: transform 0.6s ease, background-color 0.6s ease, color 0.6s ease;
 }
 
 .video-btn1:hover {
     background-color: #28d7ba;
+    transform: scale(1.1);
 }
 
 .video-btn2 {
@@ -272,10 +274,11 @@
     border: 2px solid #17FBD2;
     border-radius: 30px;
     cursor: pointer;
-    transition: background-color 0.6s ease, color 0.6s ease;
+     transition: transform 0.6s ease, background-color 0.6s ease, color 0.6s ease;
 }
 
 .video-btn2:hover {
+    transform: scale(1.1);
     background-color: #17FBD2;
     color: black;
 }
@@ -306,7 +309,7 @@
 
 #hero1 {
     height: 500px;
-    background-image: url('./Images/banner_fix.jpg');
+    background-image: url('./Images/banner1.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -488,7 +491,7 @@
 
 .hero2-btn {
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 100px;
     padding: 8px 40px;
     font-size: 16px;
     font-weight: 600;
@@ -497,11 +500,12 @@
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+     transition: transform 0.6s ease, background-color 0.6s ease, color 0.6s ease;
 }
 
 .hero2-btn:hover {
     background-color: #28d7ba;
+    transform: scale(1.1);
 }
 
 /* mobile responsive */
